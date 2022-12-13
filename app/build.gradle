@@ -30,6 +30,8 @@ android {
 }
 
 dependencies {
+    //modulo core
+    implementation project(':core')
 
     // AndroidX
     implementation 'androidx.core:core-ktx:1.9.0'
